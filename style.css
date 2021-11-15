@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.field__search {
+    width: 300px;
+    outline: none;
+}
+
+.field__search:focus {
+    border: 2px solid rgb(51, 192, 192);
+    box-shadow: 0 0 10px aqua;
+}
+
+.button {
+    width: 300px;
+    background-color: aqua;
+    border: 2px solid rgb(51, 192, 192);
+}
+
+.button:hover {
+    background-color: cadetblue;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.movie {
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 10px black;
+}
+
+.img__poster {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 50px;
+    background-color: rgb(191, 248, 248);
+    /* width: 100%; */
+}
+
+.details {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.movie_container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(206, 203, 203, 0.597);
+    z-index: 5;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-top: 50px;
+    
+
+}
+
+.movieFull {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.img__poster_big {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.about__list {
+    width: 600px;
+    text-align: start;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.title__this {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: aquamarine;
+}
+
+.about__list p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.rated__this {
+    color: gray;
+}
+
+#font18 {
+    font-size: 18px;
+}
+
+/* .ratings__this{
+    margin-bottom: 5px;
+} */
+
+.hide {
+    display: none;
+}
